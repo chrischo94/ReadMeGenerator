@@ -67,6 +67,8 @@ function generateMarkdown(readMeContent) {
 
   ## Usage 
   ${readMeContent.usage}
+
+  ## License
   ${renderLicenseSection(readMeContent)}
 
   ## Tests
