@@ -34,7 +34,7 @@ const questions =[
       },
       {
         type: 'input',
-        name: 'emailAdress',
+        name: 'emailAddress',
         message: 'Enter your email address.',
         validate: (nameInput) => {
           if (nameInput) {
@@ -125,5 +125,5 @@ init()
   .then(generateMarkdown)
   .then((response)=> {
     writeToFile(response)
-    
+
   })
